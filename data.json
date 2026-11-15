@@ -1,0 +1,99 @@
+{
+  "patients": [
+    {
+      "id": "P-101",
+      "username": "aarav_s",
+      "password": "123",
+      "name": "Aarav Sharma",
+      "age": "34 / M",
+      "blood": "O+",
+      "diagnosis": "Viral Fever",
+      "doctor": "Dr. Rajesh Verma",
+      "status": "Recovering",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "D-201",
+      "name": "Dr. Rajesh Verma",
+      "spec": "General Medicine",
+      "degree": "MBBS, MD (Internal Medicine)",
+      "exp": "12 Years Experience",
+      "timing": "10:00 AM - 04:00 PM",
+      "facilities": "ICU Support, ECG, General Consultation",
+      "contact": "+91 98765 43210",
+      "status": "Available",
+      "photo": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=150"
+    },
+    {
+      "id": "D-202",
+      "name": "Dr. Sneha Kulkarni",
+      "spec": "Orthopedics",
+      "degree": "MS (Orthopedics), MBBS",
+      "exp": "9 Years Experience",
+      "timing": "02:00 PM - 08:00 PM",
+      "facilities": "Fracture Care, Physiotherapy, Joint Replacement Unit",
+      "contact": "+91 98234 56789",
+      "status": "In Surgery",
+      "photo": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=150"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "H-901",
+      "name": "Ruby Hall Clinic",
+      "location": "Pune, Maharashtra",
+      "facilities": "ICU, Trauma Center, MRI, 24/7 Blood Bank",
+      "beds": "550 Beds",
+      "contact": "+91 20 6645 5100",
+      "status": "Open 24/7",
+      "photo": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=150"
+    },
+    {
+      "id": "901",
+      "name": "Shree Sai hospital and critical center",
+      "location": "loha",
+      "facilities": "icu",
+      "beds": "40",
+      "contact": "8228606757",
+      "status": "admitted",
+      "photo": "/uploads/1794734055833-WhatsApp_Image_2026-11-15_at_2.43.04_PM.jpeg"
+    }
+  ],
+  "organs": [
+    {
+      "id": "ORG-301",
+      "name": "Karan Malhotra",
+      "age": "29",
+      "blood": "O+",
+      "organ": "Kidney, Cornea",
+      "city": "Pune",
+      "status": "Verified",
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150"
+    }
+  ],
+  "blood": [
+    {
+      "id": "BLD-401",
+      "name": "Amitabh Kulkarni",
+      "group": "O-",
+      "units": "2 Units",
+      "date": "2026-10-10",
+      "contact": "+91 91234 56780",
+      "status": "Available",
+      "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "APT-501",
+      "patient": "Aarav Sharma",
+      "doctor": "Dr. Rajesh Verma",
+      "date": "2026-11-20",
+      "time": "10:30 AM",
+      "status": "Confirmed",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150"
+    }
+  ]
+}
